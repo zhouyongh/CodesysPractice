@@ -427,3 +427,11 @@ FodyWeavers.xsd
 *.msix
 *.msm
 *.msp
+.agents/skills/
+
+# CODESYS IDE 工作区噪声（工程 .project 入库，其余不入库）
+*.opt
+*.bak
+*.~u
+*.precompilecache
+*.tmp_save*
